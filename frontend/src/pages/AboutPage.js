@@ -3,7 +3,7 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { Target, Clock, Award, Users } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 
-const ABOUT_HERO = 'https://images.unsplash.com/photo-1712179355181-cd9add37f76a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxhZXJvc3BhY2UlMjBtYW51ZmFjdHVyaW5nfGVufDB8fHx8MTc3NzE4NTIxOXww&ixlib=rb-4.1.0&q=85&w=1920';
+const ABOUT_HERO = 'https://images.pexels.com/photos/256297/pexels-photo-256297.jpeg?auto=compress&cs=tinysrgb&w=1920';
 
 const milestones = [
   { year: '2020', title: 'The Foundation', description: 'ADTS was established with a singular focus: to equip the domestic aerospace and defense sectors with world-class engineering solutions and precision-grade tooling.' },
