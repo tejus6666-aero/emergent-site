@@ -13,7 +13,7 @@ const FORMSPREE_ID = 'manpzalb';
 const solutions = [
   {
     title: 'Structural Assembly Solutions',
-    description: 'Precision jig fixtures and complete assembly line systems meeting the most stringent aerospace tolerances and certification standards.',
+    description: 'Providing high-precision riveting solutions and specialized assembly tooling. We deliver the accuracy and reliability required to meet the most stringent aerospace tolerances and global certification standards.',
     icon: Layers,
     span: 'md:col-span-2',
   },
