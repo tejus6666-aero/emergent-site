@@ -25,7 +25,7 @@ const solutions = [
   },
   {
     title: 'Industry 4.0',
-    description: 'Smart manufacturing with IoT integration, digital monitoring, and automated quality systems for next-generation production.',
+    description: 'Advancing aerospace manufacturing through Wireless Torque Integration and real-time Automated Tool Tracking. We provide the digital infrastructure necessary to eliminate FOD (Foreign Object Debris) risks while ensuring 100% fastener traceability in structural assembly.',
     icon: Cpu,
     span: '',
   },
