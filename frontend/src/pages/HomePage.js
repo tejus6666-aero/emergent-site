@@ -144,11 +144,11 @@ export default function HomePage() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 py-32 lg:py-40">
           <div className="max-w-2xl">
-            <p className="text-xs font-bold uppercase tracking-[0.3em] text-[#4FC3F7] mb-6 font-body">
+            <p className="text-sm sm:text-base font-bold uppercase tracking-[0.3em] text-[#4FC3F7] mb-6 font-body">
               AeroDart Techno Solutions
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter text-white leading-[0.95] font-heading">
-              Your Reliable Partner for Mission-Critical Aerospace Solutions
+              Where Precision Meets Performance — Aerospace Solutions That Deliver
             </h1>
             <p className="text-base lg:text-lg text-white/65 mt-8 leading-relaxed max-w-lg font-body">
               Aerospace-grade tooling, precision assembly systems, and Industry 4.0 solutions — trusted by India's premier defence and aerospace organizations.
@@ -168,11 +168,18 @@ export default function HomePage() {
         {/* Scroll indicator */}
         <button
           onClick={scrollToSolutions}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce"
+          className="absolute bottom-16 left-1/2 -translate-x-1/2 z-10 animate-bounce"
           aria-label="Scroll down"
         >
           <ChevronDown className="h-6 w-6 text-white/40" />
         </button>
+
+        {/* Angled divider for smooth transition */}
+        <div className="absolute bottom-0 left-0 right-0 z-10">
+          <svg viewBox="0 0 1920 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto block" preserveAspectRatio="none">
+            <path d="M0 100V40C320 10 640 0 960 5C1280 10 1600 30 1920 50V100H0Z" fill="#F8FAFC"/>
+          </svg>
+        </div>
       </section>
 
       {/* ===== SOLUTIONS GRID ===== */}

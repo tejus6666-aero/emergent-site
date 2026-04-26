@@ -10,6 +10,25 @@
     border-radius: 3px;
 }
 
+/* Hide Emergent badge */
+#emergent-visual-edits-root,
+[data-emergent-badge],
+div[style*="Made with Emergent"],
+iframe[src*="emergent"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+/* Target fixed bottom-right badge */
+body > div:last-child:not(#root) {
+    display: none !important;
+}
+body > iframe {
+    display: none !important;
+}
+
 /* Tracing beam border animation */
 @keyframes trace-border {
     0% { background-position: 0% 50%; }

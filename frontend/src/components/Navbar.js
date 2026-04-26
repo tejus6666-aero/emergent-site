@@ -61,17 +61,20 @@ export default function Navbar() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
           ? 'bg-white/95 backdrop-blur-xl shadow-sm border-b border-slate-200/60'
-          : 'bg-white/10 backdrop-blur-sm'
+          : 'bg-white/5 backdrop-blur-[2px]'
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16 lg:h-20">
         {/* Logo */}
         <Link to="/" data-testid="nav-logo" className="flex items-center gap-2.5 flex-shrink-0">
-          <img
-            src={LOGO_URL}
-            alt="AeroDart Techno Solutions"
-            className="h-9 lg:h-10 object-contain"
-          />
+          <div className={`transition-all duration-300 rounded-md ${!scrolled ? 'bg-white/90 px-2 py-1' : ''}`}>
+            <img
+              src={LOGO_URL}
+              alt="AeroDart Techno Solutions"
+              className="h-9 lg:h-10 object-contain"
+              style={{ mixBlendMode: 'multiply' }}
+            />
+          </div>
         </Link>
 
         {/* Desktop Links */}
