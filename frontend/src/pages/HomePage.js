@@ -30,8 +30,8 @@ const solutions = [
     span: '',
   },
   {
-    title: 'Critical Tightening Applications',
-    description: 'Torque-controlled fastening systems — calibrated, traceable, and fully compliant with international aerospace standards.',
+    title: 'Critical Tightening & Assembly Applications',
+    description: 'We provide high-precision, torque-controlled fastening systems engineered for the zero-defect requirements of modern aerospace assembly. Our solutions ensure every joint is digitally calibrated, fully traceable, and compliant with the most stringent global standards.',
     icon: Settings2,
     span: 'md:col-span-2',
   },
