@@ -47,8 +47,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-start">
             <ScrollReveal>
-              <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#4FC3F7] mb-4 font-body">Our Story</p>
-              <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1B2A4A] font-heading">
+              <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#4FC3F7] mb-4 font-body">Our Story</p>
+              <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#1B2A4A] font-heading">
                 Five Years of Aerospace Excellence
               </h2>
               <p className="text-[#64748B] mt-5 leading-relaxed font-body">
