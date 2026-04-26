@@ -13,7 +13,7 @@ const FORMSPREE_ID = 'manpzalb';
 const solutions = [
   {
     title: 'Structural Assembly Solutions',
-    description: 'Providing high-precision riveting solutions and specialized assembly tooling. We deliver the accuracy and reliability required to meet the most stringent aerospace tolerances and global certification standards.',
+    description: 'Providing high-precision riveting, controlled torque, and specialized Aerospace Structural Assembly Solutions. We deliver the critical accuracy and reliability required for fastener integrity, joint fatigue resistance, and structural load path consistency to meet the most stringent aerospace tolerances and global certification standards.',
     icon: Layers,
     span: 'md:col-span-2',
   },
