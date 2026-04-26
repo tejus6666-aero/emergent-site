@@ -66,8 +66,9 @@ export default function AboutPage() {
               <div className="bg-[#1B2A4A] p-8 lg:p-12 rounded-sm">
                 <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#4FC3F7] mb-5 font-body">Founded By</p>
                 <h3 className="text-2xl font-bold text-white font-heading">Tejus Divakar</h3>
+                <p className="text-[#4FC3F7] text-sm font-medium mt-1 font-body">Founder & Proprietor</p>
                 <p className="text-white/60 mt-4 leading-relaxed text-sm font-body">
-                  An aerospace industry professional with over a decade of experience in precision manufacturing, tooling, and defence-sector operations. His vision for ADTS was to bridge the gap between global aerospace standards and Indian manufacturing capabilities.
+                  A Mechanical Engineer with over a decade of dedicated experience in the aerospace and defense sectors. Tejus founded ADTS with a clear, practical objective: to integrate world-class precision manufacturing standards with robust Indian engineering capabilities. His approach combines technical expertise with a deep understanding of complex tooling requirements, ensuring that every project meets the rigorous demands of major aerospace manufacturers and Tier 1 defense clients.
                 </p>
                 <Separator className="bg-white/10 my-6" />
                 <div className="grid grid-cols-2 gap-6">
