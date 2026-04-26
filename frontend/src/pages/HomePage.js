@@ -6,9 +6,9 @@ import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { toast } from 'sonner';
-import axios from 'axios';
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+const FORMSPREE_ID = process.env.REACT_APP_FORMSPREE_ID;
 
 const solutions = [
   {
@@ -109,7 +109,19 @@ export default function HomePage() {
     }
     setSubmitting(true);
     try {
-      await axios.post(`${API}/contact`, form);
+      if (BACKEND_URL) {
+        const axios = (await import('axios')).default;
+        await axios.post(`${BACKEND_URL}/api/contact`, form);
+      } else if (FORMSPREE_ID) {
+        const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(form),
+        });
+        if (!res.ok) throw new Error('Submission failed');
+      } else {
+        throw new Error('No form endpoint configured');
+      }
       toast.success("Message sent successfully! We'll be in touch.");
       setForm({ name: '', email: '', phone: '', message: '' });
     } catch (err) {
