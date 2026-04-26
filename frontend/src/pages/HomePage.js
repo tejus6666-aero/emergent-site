@@ -342,12 +342,10 @@ export default function HomePage() {
               </h3>
               <ul className="mt-6 space-y-4">
                 {[
-                  'Aerospace-certified solutions & tooling',
-                  'Trusted by HAL, ISRO, DRDO & Boeing',
-                  '100% client satisfaction track record',
-                  'End-to-end project support & delivery',
-                  'Industry 4.0 compliant systems',
-                  'Key supplier for H125 helicopters',
+                  'Aerospace Grade Tooling Solutions — High-precision engineering meeting the most stringent global aviation standards.',
+                  'Trusted by Tier 1 Clients & Major Aerospace Manufacturers — Partnering with industry leaders to deliver mission-critical components for defence and space exploration.',
+                  'Client Satisfaction Track Record — A legacy of reliability and excellence across every project.',
+                  'Industry 4.0 Compliant Systems — Leveraging smart manufacturing and data-driven insights for maximum efficiency.',
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <div className="w-5 h-5 rounded-full bg-[#4FC3F7]/10 flex items-center justify-center flex-shrink-0 mt-0.5">
