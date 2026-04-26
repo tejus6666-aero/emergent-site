@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Layers, Wrench, Cpu, Settings2, Cable, PackageCheck, ArrowRight, Check, Send, ChevronDown } from 'lucide-react';
+import { Layers, Wrench, Cpu, Settings2, Cable, ArrowRight, Check, Send, ChevronDown } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
@@ -40,12 +40,6 @@ const solutions = [
     description: 'We provide high-precision crimping systems engineered for aerospace-grade wiring harnesses and complex cable assemblies. Our tooling suites are certified for critical avionics, ensuring mission-critical electrical integrity and full compliance with MIL-SPEC and AS9100 standards.',
     icon: Cable,
     span: 'md:col-span-2',
-  },
-  {
-    title: 'Specialized Tool Storage',
-    description: 'Industry 4.0-compliant tool management with FOD-prevention control, shadow boards, and smart inventory tracking.',
-    icon: PackageCheck,
-    span: '',
   },
 ];
 
