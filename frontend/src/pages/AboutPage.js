@@ -20,7 +20,7 @@ const values = [
   { icon: Users, title: 'Excellence as Standard', description: 'For us, total client satisfaction is not a goal — it is the baseline. We build long-term trust through consistent, high-specification results.' },
 ];
 
-const customers = ['HAL', 'DRDO', 'ISRO', 'BEL', 'Boeing', 'Tata Advanced Systems', 'Magellan Aerospace'];
+const customers = ['HAL', 'ISRO', 'BEL', 'Tata Advanced Systems', 'Magellan Aerospace', 'Airbus Helicopters', 'Dynamatic Technologies', 'And Many More'];
 const partners = ['FACOM', 'PROTO', 'Aero-Industrial', 'USATCO', 'Stanley', 'Black & Decker', 'e-tech', 'Elair Corporation'];
 
 export default function AboutPage() {
