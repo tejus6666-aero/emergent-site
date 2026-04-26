@@ -36,8 +36,8 @@ const solutions = [
     span: 'md:col-span-2',
   },
   {
-    title: 'Crimping Solutions & Tools',
-    description: 'High-precision crimping for aerospace-grade wiring and cable assemblies, certified for critical avionics and electrical systems.',
+    title: 'Avionics & Electrical Crimping Solutions',
+    description: 'We provide high-precision crimping systems engineered for aerospace-grade wiring harnesses and complex cable assemblies. Our tooling suites are certified for critical avionics, ensuring mission-critical electrical integrity and full compliance with MIL-SPEC and AS9100 standards.',
     icon: Cable,
     span: 'md:col-span-2',
   },
