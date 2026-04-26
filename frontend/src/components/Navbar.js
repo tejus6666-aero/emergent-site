@@ -42,6 +42,9 @@ export default function Navbar() {
       scrollToSection('solutions');
     } else if (link.path === '/#contact') {
       scrollToSection('contact');
+    } else if (link.path === '/') {
+      navigate('/');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       navigate(link.path);
     }
