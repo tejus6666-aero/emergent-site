@@ -167,28 +167,32 @@ export default function AboutPage() {
 
           {/* Customers */}
           <ScrollReveal>
-            <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#1B2A4A]/40 mb-4 font-body">Our Customers</p>
+            <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#1B2A4A]/40 mb-5 font-body">Our Customers</p>
           </ScrollReveal>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-0 border-t border-l border-[#E2E8F0] mb-12">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mb-14">
             {customers.map((name, i) => (
-              <ScrollReveal key={name} delay={i * 40} className="border-b border-r border-[#E2E8F0] flex items-center justify-center p-5 lg:p-6">
-                <span className="font-bold text-sm md:text-base uppercase tracking-[0.12em] text-slate-300 font-heading text-center select-none whitespace-nowrap">
-                  {name}
-                </span>
+              <ScrollReveal key={name} delay={i * 40}>
+                <div className="flex items-center justify-center p-6 lg:p-8 border border-[#E2E8F0] rounded-sm hover:border-[#4FC3F7]/30 transition-colors duration-300">
+                  <span className="font-bold text-sm lg:text-base uppercase tracking-[0.08em] text-slate-300 font-heading text-center select-none">
+                    {name}
+                  </span>
+                </div>
               </ScrollReveal>
             ))}
           </div>
 
           {/* Partners */}
           <ScrollReveal>
-            <p className="text-xs font-bold uppercase tracking-[0.15em] text-[#1B2A4A]/40 mb-4 font-body">Our Partners</p>
+            <p className="text-sm font-bold uppercase tracking-[0.15em] text-[#1B2A4A]/40 mb-5 font-body">Our Partners</p>
           </ScrollReveal>
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-0 border-t border-l border-[#E2E8F0]">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {partners.map((name, i) => (
-              <ScrollReveal key={name} delay={i * 40} className="border-b border-r border-[#E2E8F0] flex items-center justify-center p-5 lg:p-6">
-                <span className="font-bold text-sm md:text-base uppercase tracking-[0.12em] text-slate-300 font-heading text-center select-none whitespace-nowrap">
-                  {name}
-                </span>
+              <ScrollReveal key={name} delay={i * 40}>
+                <div className="flex items-center justify-center p-6 lg:p-8 border border-[#E2E8F0] rounded-sm hover:border-[#4FC3F7]/30 transition-colors duration-300">
+                  <span className="font-bold text-sm lg:text-base uppercase tracking-[0.08em] text-slate-300 font-heading text-center select-none">
+                    {name}
+                  </span>
+                </div>
               </ScrollReveal>
             ))}
           </div>
