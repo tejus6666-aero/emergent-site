@@ -8,7 +8,7 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { toast } from 'sonner';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-const FORMSPREE_ID = process.env.REACT_APP_FORMSPREE_ID;
+const FORMSPREE_ID = 'manpzalb';
 
 const solutions = [
   {
