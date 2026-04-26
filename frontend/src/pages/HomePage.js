@@ -202,10 +202,10 @@ export default function HomePage() {
               What We Do
             </p>
             <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1B2A4A] font-heading">
-              Our Solutions
+              Next-Generation Production, Today.
             </h2>
             <p className="text-[#64748B] mt-4 max-w-xl leading-relaxed text-sm font-body">
-              Comprehensive aerospace solutions spanning precision assembly, advanced tooling, and smart digital manufacturing capabilities.
+              We provide the precision tooling and IoT-integrated digital monitoring required to build the future of aerospace with zero-defect reliability.
             </p>
           </ScrollReveal>
 
