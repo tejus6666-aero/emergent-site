@@ -14,10 +14,10 @@ const milestones = [
 ];
 
 const values = [
-  { icon: Target, title: 'Timely Quality', description: 'Aerospace-grade quality on every project, every time. Zero-compromise on precision.' },
-  { icon: Clock, title: 'On-Time Delivery', description: 'Commitment to project timelines with reliable, zero-delay delivery schedules.' },
-  { icon: Award, title: 'Performance', description: 'Solutions engineered for peak performance in the most demanding environments.' },
-  { icon: Users, title: '100% Satisfaction', description: 'Client satisfaction is not a target — it is our standard.' },
+  { icon: Target, title: 'Precision-Driven Quality', description: 'Adhering to rigorous aerospace standards on every engagement. We operate with a zero-compromise approach to engineering tolerances and material integrity.' },
+  { icon: Clock, title: 'Schedule Reliability', description: 'A steadfast commitment to project timelines. We treat delivery schedules as mission-critical, ensuring reliable execution without operational delays.' },
+  { icon: Award, title: 'Operational Performance', description: 'Mechanical solutions engineered for peak durability and functionality, designed to thrive in the most demanding industrial and defense environments.' },
+  { icon: Users, title: 'Excellence as Standard', description: 'For us, total client satisfaction is not a goal — it is the baseline. We build long-term trust through consistent, high-specification results.' },
 ];
 
 const customers = ['HAL', 'DRDO', 'ISRO', 'BEL', 'Boeing', 'Tata Advanced Systems', 'Magellan Aerospace'];
