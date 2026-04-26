@@ -368,7 +368,8 @@ export default function HomePage() {
                 <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#4FC3F7] mb-4 font-body">
                   Reach Us Directly
                 </p>
-                <p className="text-[#64748B] text-sm font-body">info@aerodart.in</p>
+                <p className="text-[#64748B] text-sm font-body">sales@aerodart.in</p>
+                <p className="text-[#64748B] text-sm mt-1 font-body">+91 7411174797</p>
                 <p className="text-[#64748B] text-sm mt-1 font-body">Bangalore, India</p>
               </div>
             </ScrollReveal>

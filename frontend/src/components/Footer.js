@@ -76,7 +76,8 @@ export default function Footer() {
           <div>
             <h4 className="text-xs font-bold uppercase tracking-[0.2em] text-[#4FC3F7] mb-5">Get In Touch</h4>
             <div className="space-y-3 text-sm text-white/60">
-              <p>info@aerodart.in</p>
+              <p>sales@aerodart.in</p>
+              <p>+91 7411174797</p>
               <p>Bangalore, India</p>
               <a
                 href="https://aerodart.in"
