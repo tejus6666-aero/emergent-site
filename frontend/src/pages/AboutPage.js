@@ -92,8 +92,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <ScrollReveal>
             <div className="text-center max-w-xl mx-auto mb-14">
-              <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#4FC3F7] mb-4 font-body">Our Journey</p>
-              <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1B2A4A] font-heading">Strategic Evolution</h2>
+              <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#4FC3F7] mb-4 font-body">Our Journey</p>
+              <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-[#1B2A4A] font-heading">Strategic Evolution</h2>
             </div>
           </ScrollReveal>
 
