@@ -29,7 +29,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <img src={LOGO_URL} alt="ADTS" className="h-10 object-contain brightness-0 invert" />
+            <img src={LOGO_URL} alt="ADTS" className="h-10 object-contain rounded-sm" />
             <p className="text-white/50 text-sm mt-4 leading-relaxed max-w-xs">
               Your reliable partner for mission-critical aerospace solutions. Trusted by India's premier defence organizations.
             </p>
