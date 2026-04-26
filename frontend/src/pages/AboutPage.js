@@ -49,16 +49,16 @@ export default function AboutPage() {
             <ScrollReveal>
               <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#4FC3F7] mb-4 font-body">Our Story</p>
               <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1B2A4A] font-heading">
-                Five Years of Aerospace Innovation
+                Five Years of Aerospace Excellence
               </h2>
               <p className="text-[#64748B] mt-5 leading-relaxed font-body">
-                Founded in 2020, AeroDart Techno Solutions has rapidly grown into a trusted name in India's aerospace and defence sector. From our inception, we set out with a clear mission: to provide world-class, precision-engineered solutions that meet the exacting standards of aerospace manufacturing.
+                Founded in 2020, AeroDart Techno Solutions (ADTS) has rapidly ascended as a cornerstone of precision engineering in India's aerospace and defense landscape. From our inception, we have remained steadfast in a single mission: delivering world-class, high-performance tooling and solutions that exceed the rigorous demands of modern aviation manufacturing.
               </p>
               <p className="text-[#64748B] mt-4 leading-relaxed font-body">
-                Over the last five years, we have secured major contracts with India's premier defence and aerospace organisations. Our commitment to timely quality, performance, and 100% client satisfaction has made us a preferred partner for mission-critical projects.
+                Over the past half-decade, we have solidified our reputation by securing major contracts with Tier 1 clients and major aerospace manufacturers. Our unwavering commitment to quality, technical precision, and a 100% client satisfaction track record has established ADTS as a preferred partner for mission-critical defense and space programs.
               </p>
               <p className="text-[#64748B] mt-4 leading-relaxed font-body">
-                Today, we are proud to be key suppliers for the H125 helicopter program and trusted partners of HAL, ISRO, DRDO, Boeing, and more.
+                Today, we are proud to serve as a strategic supplier for leading global light-utility helicopter platforms and a trusted technical partner to the industry's most prominent institutional and commercial leaders. Our journey is defined by innovation, and our future is built on the success of the high-stakes projects we support.
               </p>
             </ScrollReveal>
 
