@@ -6,11 +6,11 @@ import { Separator } from '@/components/ui/separator';
 const ABOUT_HERO = 'https://images.unsplash.com/photo-1712179355181-cd9add37f76a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxhZXJvc3BhY2UlMjBtYW51ZmFjdHVyaW5nfGVufDB8fHx8MTc3NzE4NTIxOXww&ixlib=rb-4.1.0&q=85&w=1920';
 
 const milestones = [
-  { year: '2020', title: 'Company Founded', description: 'ADTS established to serve Indian aerospace & defence with world-class solutions.' },
-  { year: '2022', title: 'HAL Partnership', description: 'Strategic partnership with Hindustan Aeronautics Limited for tooling & assembly.' },
-  { year: '2023', title: 'ISRO Collaboration', description: 'Supplying critical components and specialized tooling to ISRO.' },
-  { year: '2024', title: 'DRDO Partnership', description: 'Expanded into defence-grade tooling and tightening solutions with DRDO.' },
-  { year: 'Now', title: 'H125 Key Supplier', description: 'Key supplier for the H125 helicopter program.' },
+  { year: '2020', title: 'The Foundation', description: 'ADTS was established with a singular focus: to equip the domestic aerospace and defense sectors with world-class engineering solutions and precision-grade tooling.' },
+  { year: '2022', title: 'Institutional Integration', description: 'Solidified our presence within the defense ecosystem through strategic partnerships, providing specialized assembly tools for major aerospace manufacturing projects.' },
+  { year: '2023', title: 'Space Exploration Support', description: 'Expanded our technical footprint into the space sector, delivering critical components and highly specialized tooling for high-stakes mission architectures.' },
+  { year: '2024', title: 'Advanced Defense Operations', description: 'Deepened our collaboration with premier research and development organizations, specializing in defense-grade tightening solutions and heavy-duty industrial tooling.' },
+  { year: 'Now', title: 'Global Platform Integration', description: 'Proudly serving as a key supplier for global light-utility helicopter programs, supporting international production standards with high-precision manufacturing.' },
 ];
 
 const values = [
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <ScrollReveal>
             <div className="text-center max-w-xl mx-auto mb-14">
               <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#4FC3F7] mb-4 font-body">Our Journey</p>
-              <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1B2A4A] font-heading">Key Milestones</h2>
+              <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1B2A4A] font-heading">Strategic Evolution</h2>
             </div>
           </ScrollReveal>
 
