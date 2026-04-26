@@ -1,0 +1,104 @@
+{
+  "theme_and_archetype": {
+    "theme": "Light",
+    "archetype": "Archetype 4 (Swiss & High-Contrast) + Aerospace Industrial Realism",
+    "reasoning": "Aerospace enterprise domain demands Authority, Precision, and Clarity. A clean Light Theme base ensures readability, while heavy use of Deep Navy creates structural authority. The design should feel like a modern, highly precise engineering manual brought to life."
+  },
+  "colors": {
+    "primary": "#1B2A4A",
+    "primary_description": "Deep Navy. Use for primary text, large structural headings, and footer backgrounds.",
+    "accent": "#4FC3F7",
+    "accent_description": "Sky Blue. Use for hover states, primary buttons, borders, and 'Tracing Beam' glows. Do not overuse.",
+    "background_base": "#F8FAFC",
+    "background_surface": "#FFFFFF",
+    "text_dark": "#0A0F1A",
+    "text_muted": "#64748B",
+    "border_color": "#E2E8F0"
+  },
+  "typography": {
+    "headings": {
+      "font": "Cabinet Grotesk, sans-serif",
+      "strategy": "Industrial, precise, and authoritative. Must use tight letter spacing (tracking-tight) for large headers.",
+      "sizes": {
+        "h1": "text-5xl sm:text-6xl font-bold tracking-tighter text-[#1B2A4A]",
+        "h2": "text-3xl sm:text-4xl font-semibold tracking-tight text-[#1B2A4A]",
+        "h3": "text-xl sm:text-2xl font-medium"
+      }
+    },
+    "body": {
+      "font": "Satoshi, Inter, or system-ui, sans-serif",
+      "strategy": "Clean and highly readable. Loose line height (leading-relaxed) to balance the dense headings.",
+      "sizes": {
+        "base": "text-base text-[#64748B] leading-relaxed",
+        "small": "text-sm text-[#64748B]"
+      }
+    },
+    "labels": "text-xs font-bold uppercase tracking-[0.2em] text-[#4FC3F7]"
+  },
+  "spacing_and_layout": {
+    "system": "Generous Spacing System",
+    "padding": "Use p-8, p-12, p-16 for containers. Containers with borders must have internal padding.",
+    "grids": "Use Mode A (The 'Tetris' Grid) for the Solutions section to create asymmetry and visual tension. Never just use equal squares.",
+    "alignment": "Optical Alignment over geometrical. Left-align paragraphs and dense content."
+  },
+  "surfaces_and_micro_themes": {
+    "hero_overlay": "Maximum bg-black/40 or gradient-to-r from-[#1B2A4A]/90 to-[#1B2A4A]/30 for strong text contrast without killing the background image.",
+    "solutions_cards": "Grid Borders (The 'Technical' Look). Use border-collapse style layouts with border-border/40 to expose the grid skeleton.",
+    "navigation": "Crystal Glassmorphism on scroll (backdrop-blur-xl bg-white/80 border-b border-white/20). MUST have visible nav links on desktop.",
+    "footer": "Massive Space (py-24). Deep Navy background (#1B2A4A) with Sky Blue (#4FC3F7) accents."
+  },
+  "animations": {
+    "global": "Lenis for smooth scrolling (MANDATORY). Framer Motion for scroll-triggered staggered entrances.",
+    "micro": "Hover states must have explicit text color changes. Add slight lift (-translate-y-1) and shadow-lg to cards on hover.",
+    "decorative": "Use the 'Tracing Beam' effect for high-priority solution cards or contact form borders."
+  },
+  "image_urls": [
+    {
+      "category": "logo_icon",
+      "url": "https://customer-assets.emergentagent.com/job_aerospace-hub-9/artifacts/mo6jnho1_ADTS%20-%20LOGO%20FINAL%201%20-%20WHITE%20BG%20-%20ICON.png",
+      "description": "ADTS Logo Icon (Transparent/White BG)"
+    },
+    {
+      "category": "logo_full",
+      "url": "https://customer-assets.emergentagent.com/job_aerospace-hub-9/artifacts/6en35zx9_ADTS%20-%20LOGO%20FINAL%201%20-%20WHITE%20BG.png",
+      "description": "ADTS Full Logo (White BG)"
+    },
+    {
+      "category": "hero_background",
+      "url": "https://images.pexels.com/photos/13316850/pexels-photo-13316850.jpeg",
+      "description": "Aircraft Wing Mechanism - Use as hero section background with dark/navy gradient overlay for text readability."
+    },
+    {
+      "category": "solutions_industry40",
+      "url": "https://images.pexels.com/photos/586092/pexels-photo-586092.jpeg",
+      "description": "Spacecraft Factory - Use for Industry 4.0 or overarching solutions visual."
+    },
+    {
+      "category": "solutions_tooling",
+      "url": "https://images.pexels.com/photos/46973/taps-thread-drill-milling-46973.jpeg",
+      "description": "Precision drill bits - Use for Tooling Solutions or Critical Tightening Applications."
+    },
+    {
+      "category": "solutions_storage",
+      "url": "https://images.pexels.com/photos/16135853/pexels-photo-16135853.jpeg",
+      "description": "Cluttered workshop - Use as a contrast for 'Specialized Tool Storage'."
+    },
+    {
+      "category": "about_general",
+      "url": "https://images.unsplash.com/photo-1712179355181-cd9add37f76a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDR8MHwxfHNlYXJjaHwxfHxhZXJvc3BhY2UlMjBtYW51ZmFjdHVyaW5nfGVufDB8fHx8MTc3NzE4NTIxOXww&ixlib=rb-4.1.0&q=85",
+      "description": "Jet inside hangar - Use for Career page or About Us page header."
+    }
+  ],
+  "instructions_to_main_agent": [
+    "1. STRUCTURE: Create a multi-page routing structure (Home, About Us, Careers) using React Router or equivalent. Ensure smooth navigation between them.",
+    "2. NAVBAR: Fixed 'Crystal Glass' header. Logo on the left, Navigation links (Home, Solutions, About Us, Careers) in the center, and a 'Contact Us' CTA button on the right (Sky Blue background, Deep Navy text).",
+    "3. HERO SECTION (Home): Use 'hero_background' image with a heavy Deep Navy to transparent gradient overlay. Headline: 'Precision Engineering. Aerospace Grade.' Tagline: 'Aerospace-compliant tooling, assembly, and Industry 4.0 solutions.' CTA: 'Explore Solutions'.",
+    "4. SOLUTIONS GRID (Home): Display the 6 solutions (Structural Assembly, Tooling, Industry 4.0, Critical Tightening, Crimping, Specialized Tool Storage) using the 'Tetris Grid' pattern. Not all cards should be the same size. Use 'Grid Borders' style.",
+    "5. CONTACT FORM (Home Footer): Minimalist friction. Fields: Name, Email, Phone, Message. Use Shadcn components. Style with a 'Tracing Beam' border effect to make it stand out.",
+    "6. ABOUT US PAGE: Must include sections for: Company Timeline (Founded 2020), Founder (Tejus Divakar), Values, Customers, and Partners.",
+    "7. LOGOS (Customers & Partners): Since external partner logos (Boeing, HAL, ISRO, FACOM, PROTO, etc.) are heavily protected and not in the image DB, DO NOT USE PLACEHOLDER IMAGES. Use pure typography. Example: <div className='font-black text-2xl uppercase tracking-widest text-slate-300'>BOEING</div>. Style them uniformly in a scrolling marquee or CSS grid.",
+    "8. CAREERS PAGE: Emphasize 'Dynamic fast-paced work environment' and 'Modern problem solving for enterprise'. Include a prominent outbound CTA button linking to 'Naukri' for open positions.",
+    "9. TESTING: Add 'data-testid' to all interactive elements (e.g., data-testid='contact-submit-btn', data-testid='nav-careers-link').",
+    "10. ICONS: Install and use 'lucide-react' or '@phosphor-icons/react' for all iconography (arrows, solution icons, contact details)."
+  ]
+}
