@@ -10,7 +10,7 @@ const milestones = [
   { year: '2022', title: 'Institutional Integration', description: 'Solidified our presence within the defense ecosystem through strategic partnerships, providing specialized assembly tools for major aerospace manufacturing projects.' },
   { year: '2023', title: 'Space Exploration Support', description: 'Expanded our technical footprint into the space sector, delivering critical components and highly specialized tooling for high-stakes mission architectures.' },
   { year: '2024', title: 'Advanced Defense Operations', description: 'Deepened our collaboration with premier research and development organizations, specializing in defense-grade tightening solutions and heavy-duty industrial tooling.' },
-  { year: 'Now', title: 'Global Platform Integration', description: 'Proudly serving as a key supplier for global light-utility helicopter programs, supporting international production standards with high-precision manufacturing.' },
+  { year: 'Now', title: 'Advanced Technology & Process Innovation', description: 'We are currently focused on integrating Advanced Industry 4.0 solutions into the production line. By implementing smart systems and automated tool controls, we are simplifying complex manufacturing processes — making high-precision assembly faster, more efficient, and future-ready for our Tier 1 clients.' },
 ];
 
 const values = [
